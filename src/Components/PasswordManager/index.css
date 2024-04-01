@@ -1,139 +1,283 @@
-.main-con {
-  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
-  padding: 20px;
+@media (min-width: 768px) {
+  .main-con {
+    background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+    padding: 20px;
+  }
+  .logo {
+    height: 100px;
+    width: 360px;
+  }
+  .top-con {
+    background-color: #5763a5;
+    height: 55vh;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-con {
+    background-color: #454f84;
+    height: 43vh;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .image-set {
+    height: 40vh;
+    width: 50%;
+  }
+  .new-password-head {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+  .input-con {
+    height: 35px;
+    width: 90%;
+    background-color: #f8fafc;
+    margin: 20px;
+    border-radius: 2px;
+    display: flex;
+    padding: 5px;
+  }
+  .inp {
+    border: none;
+    color: #64748b;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+  }
+  .but {
+    background-color: #0b69ff;
+    color: #f8fafc;
+    border-radius: 8px;
+    padding: 8px;
+    border: 0px;
+    width: 50px;
+    margin-left: 80%;
+  }
+  .bottom-con {
+    background-color: #5763a5;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .row-con {
+    display: flex;
+  }
+  .count-con {
+    color: #f8fafc;
+    padding: 2px;
+    background-color: transparent;
+    border: 1px solid #f8fafc;
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .search-con {
+    height: 35px;
+    width: 30%;
+    background-color: #f8fafc;
+    margin: 20px;
+    border-radius: 2px;
+    display: flex;
+    padding: 5px;
+    align-self: flex-end;
+    margin-left: 45%;
+  }
+  .check-box {
+    height: 30px;
+    width: 30px;
+    margin-left: 80%;
+  }
+  .no-pass-img {
+    height: 300px;
+    width: 500px;
+    margin-left: 45%;
+  }
+  .no-passwords {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 51%;
+    text-align: center;
+  }
+  .passwords-con {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-self: flex-start;
+    flex-wrap: wrap;
+  }
+  .password {
+    background-color: transparent;
+    border: 1px solid #f8fafc;
+    border-radius: 8px;
+    padding: 5px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+  }
+  .count {
+    color: #f8fafc;
+    text-align: center;
+    align-self: center;
+  }
 }
-.logo {
-  height: 100px;
-  width: 360px;
-}
-.top-con {
-  background-color: #5763a5;
-  height: 55vh;
-  width: 80%;
-  margin-left: 10%;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.left-con {
-  background-color: #454f84;
-  height: 43vh;
-  width: 40%;
-  border-radius: 10px;
-  padding: 10px;
-}
-.image-set {
-  height: 40vh;
-  width: 50%;
-}
-.new-password-head {
-  font-size: 20px;
-  color: #ffffff;
-  font-family: Roboto;
-  font-weight: 300;
-  margin-top: 5px;
-}
-.input-con {
-  height: 35px;
-  width: 90%;
-  background-color: #f8fafc;
-  margin: 20px;
-  border-radius: 2px;
-  display: flex;
-  padding: 5px;
-}
-.inp {
-  border: none;
-  color: #64748b;
-  padding: 5px;
-  outline: none;
-  width: 100%;
-}
-.but {
-  background-color: #0b69ff;
-  color: #f8fafc;
-  border-radius: 8px;
-  padding: 8px;
-  border: 0px;
-  width: 50px;
-  margin-left: 80%;
-}
-.bottom-con {
-  background-color: #5763a5;
-  width: 80%;
-  margin-left: 10%;
-  border-radius: 10px;
-  margin-top: 10px;
-  padding: 20px;
-}
-.row-con {
-  display: flex;
-}
-.count-con {
-  color: #f8fafc;
-  padding: 2px;
-  background-color: transparent;
-  border: 1px solid #f8fafc;
-  height: 30px;
-  width: 30px;
-  margin: 15px;
-  text-align: center;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-}
-.search-con {
-  height: 35px;
-  width: 30%;
-  background-color: #f8fafc;
-  margin: 20px;
-  border-radius: 2px;
-  display: flex;
-  padding: 5px;
-  align-self: flex-end;
-  margin-left: 45%;
-}
-.check-box {
-  height: 30px;
-  width: 30px;
-  margin-left: 80%;
-}
-.no-pass-img {
-  height: 300px;
-  width: 500px;
-  margin-left: 45%;
-}
-.no-passwords {
-  font-size: 20px;
-  color: #ffffff;
-  font-family: Roboto;
-  font-weight: 300;
-  margin-top: 5px;
-  margin-left: 51%;
-  text-align: center;
-}
-.passwords-con {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  align-self: flex-start;
-  flex-wrap: wrap;
-}
-.password {
-  background-color: transparent;
-  border: 1px solid #f8fafc;
-  border-radius: 8px;
-  padding: 5px;
-  width: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 5px;
-}
-.count {
-  color: #f8fafc;
-  text-align: center;
-  align-self: center;
+@media (max-width: 768px) {
+  .main-con {
+    background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+    padding: 20px;
+  }
+  .logo {
+    height: 100px;
+    width: 360px;
+  }
+  .top-con {
+    background-color: #5763a5;
+    height: 70vh;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-con {
+    background-color: #454f84;
+    height: 30vh;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    order: 2;
+  }
+  .image-set {
+    height: 40vh;
+    width: 50%;
+    order: 1;
+  }
+  .new-password-head {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+  .input-con {
+    height: 20px;
+    width: 90%;
+    background-color: #f8fafc;
+    margin: 20px;
+    border-radius: 2px;
+    display: flex;
+    padding: 5px;
+  }
+  .inp {
+    border: none;
+    color: #64748b;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+  }
+  .but {
+    background-color: #0b69ff;
+    color: #f8fafc;
+    border-radius: 8px;
+    padding: 8px;
+    border: 0px;
+    width: 50px;
+    margin-left: 80%;
+  }
+  .bottom-con {
+    background-color: #5763a5;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .row-con {
+    display: flex;
+  }
+  .count-con {
+    color: #f8fafc;
+    padding: 2px;
+    background-color: transparent;
+    border: 1px solid #f8fafc;
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .search-con {
+    height: 20px;
+    width: 30%;
+    background-color: #f8fafc;
+    margin: 20px;
+    border-radius: 2px;
+    display: flex;
+    padding: 5px;
+    align-self: flex-end;
+  }
+  .check-box {
+    height: 30px;
+    width: 30px;
+    margin-left: 60%;
+  }
+  .no-pass-img {
+    height: 100px;
+    width: 200px;
+    margin-left: 15%;
+  }
+  .no-passwords {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .passwords-con {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-self: flex-start;
+    flex-wrap: wrap;
+  }
+  .password {
+    background-color: transparent;
+    border: 1px solid #f8fafc;
+    border-radius: 8px;
+    padding: 5px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+  }
+  .count {
+    color: #f8fafc;
+    text-align: center;
+    align-self: center;
+  }
 }

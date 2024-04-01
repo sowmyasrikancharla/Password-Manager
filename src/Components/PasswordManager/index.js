@@ -1,7 +1,6 @@
 import {Component} from 'react'
 import {v4 as uuidv4} from 'uuid'
 import Password from '../Password'
-import MaskedPassword from '../MaskedPassword'
 import './index.css'
 
 const initialContainerBackgroundClassNames = [
@@ -146,11 +145,6 @@ class PasswordManager extends Component {
       search,
       count,
     } = this.state
-
-    /*   const filteredList = passwordsList.filter(each =>
-      each.websiteInput.toLowerCase().includes(search.toLowerCase()),
-    )
-    const count = filteredList.length */
 
     return (
       <div className="main-con">
