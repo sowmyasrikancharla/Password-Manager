@@ -1,0 +1,61 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.password {
+  background-color: transparent;
+  border: 1px solid #f8fafc;
+  border-radius: 8px;
+  padding: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  margin: 10px;
+}
+.initial-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 90px;
+  color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.del {
+  height: 30px;
+  width: 30px;
+}
+.text {
+  color: #f8fafc;
+}
+.star-set {
+  width: 100px;
+  height: 20px;
+}
